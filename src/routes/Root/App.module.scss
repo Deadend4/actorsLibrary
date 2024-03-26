@@ -1,0 +1,19 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.buttonsBlock {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  height: 100vh;
+}
