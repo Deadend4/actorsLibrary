@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-
+import styles from "./ButtonA.module.scss";
 interface ButtonAProps {
   href: string;
-  content: string;
+  content: JSX.Element | string;
 }
 export default function ButtonA({ href, content }: ButtonAProps): JSX.Element {
   const navigate = useNavigate();
@@ -12,6 +12,7 @@ export default function ButtonA({ href, content }: ButtonAProps): JSX.Element {
       onClick={() => {
         navigate(href);
       }}
+      className={styles.button}
     >
       {content}
     </button>

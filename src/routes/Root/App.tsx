@@ -1,23 +1,21 @@
-import ButtonA from "../../components/ButtonA";
 import styles from "./App.module.scss";
 import QuoteCard from "../../components/QuoteCard";
 import deadend4 from "../../assets/deadend4.jpg";
 import setRouterTitle from "../../../utils/useRouterTitle";
+import Header from "../../components/Header";
 
 function App() {
   setRouterTitle("Библиотека Актера");
   return (
     <div className={styles.container}>
+      <Header />
       <h1>Библиотека Актера</h1>
-      <div className={styles.buttonsBlock}>
-        <ButtonA href="/books/" content="Книги" />
-        <ButtonA href="/twisters/" content="Скороговорки" />
-        <ButtonA href="/videos/" content="Видео" />
-      </div>
       <QuoteCard
-        imageURL={deadend4}
+        image={deadend4}
+        title="Я Вас категорически приветствую!"
         name="deadend4"
-        message="И в наших жилах умирает последний рассвет."
+        message="Тут Вы найдете всё, что нужно знать актеру."
+        url=""
       />
     </div>
   );
