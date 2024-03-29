@@ -5,28 +5,35 @@ import deadend4 from "../../assets/deadend4.jpg";
 
 interface QuoteCardProps {
   image: string;
-  name: string;
+  author: string;
   title: string;
-  message: string;
+  description: string;
   url: string;
+  newTab: boolean;
 }
 export default function QuoteCard({
   image = deadend4,
-  name = "Неизвестен",
+  author = "Неизвестен",
   title = "Без названия",
-  message = "[ДАННЫЕ УДАЛЕНЫ]",
+  description = "[ДАННЫЕ УДАЛЕНЫ]",
   url = "",
+  newTab = false,
 }: QuoteCardProps): JSX.Element {
   return (
-    <Link to={url} className={styles.card}>
+    <Link
+      to={url}
+      target={newTab ? "_blank" : "_self"}
+      rel="noopener noreferrer"
+      className={styles.card}
+    >
       <Avatar image={image} />
       <div className={styles.quoteMessage}>
         <div className={styles.titleBlock}>
           <p className={styles.title}>{title}</p>
-          <p className={styles.name}>{name}</p>
+          <p className={styles.author}>{author}</p>
         </div>
 
-        <p className={styles.message}>{message}</p>
+        <p className={styles.description}>{description}</p>
       </div>
     </Link>
   );

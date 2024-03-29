@@ -1,6 +1,3 @@
-import QuoteCard from "../../components/QuoteCard";
-import actorImg from "../../assets/actorsWork.jpg";
-import actorsBibleImg from "../../assets/actorsBible.jpg";
 import styles from "./Books.module.scss";
 import setRouterTitle from "../../../utils/useRouterTitle";
 import Header from "../../components/Header";

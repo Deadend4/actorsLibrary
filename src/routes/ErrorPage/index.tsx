@@ -26,9 +26,9 @@ export default function ErrorPage(): JSX.Element {
       <h1>404 Страница не найдена</h1>
       <QuoteCard
         image={errorPic}
-        name="Ошибка 404"
+        author="Ошибка 404"
         title="Страница не найдена"
-        message="Страница, которую Вы ищите не существует или была удалена."
+        description="Страница, которую Вы ищите не существует или была удалена."
         url="/"
       />
     </div>
