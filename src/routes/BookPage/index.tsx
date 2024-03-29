@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import styles from "./BookPage.module.scss";
-import setRouterTitle from "../../../utils/useRouterTitle";
+import setRouterTitle from "../../utils/useRouterTitle";
 
 interface BookPageProps {
   title: string;

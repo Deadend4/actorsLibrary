@@ -2,6 +2,7 @@
   "books": [
     {
       "category": "Актерское мастерство",
+      "url": "/books/acting/",
       "content": [
         {
           "title": "Работа актера над собой",
@@ -43,6 +44,7 @@
     },
     {
       "category": "Постановка голоса",
+      "url": "/books/voice-prod/",
       "content": [
         {
           "title": "Говори красиво и уверенно",
@@ -84,6 +86,7 @@
     },
     {
       "category": "Звукорежиссура",
+      "url": "/books/sound-production/",
       "content": [
         {
           "title": "Сведение разумом",

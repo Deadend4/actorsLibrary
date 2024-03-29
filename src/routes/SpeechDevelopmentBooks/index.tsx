@@ -1,6 +1,6 @@
 import QuoteCard from "../../components/QuoteCard";
 import styles from "./SpeechDevelopmentBooks.module.scss";
-import setRouterTitle from "../../../utils/useRouterTitle";
+import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
 
 export default function BooksPage(): JSX.Element {

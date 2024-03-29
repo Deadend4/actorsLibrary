@@ -1,7 +1,7 @@
 import styles from "./App.module.scss";
 import QuoteCard from "../../components/QuoteCard";
 import deadend4 from "../../assets/deadend4.jpg";
-import setRouterTitle from "../../../utils/useRouterTitle";
+import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
 
 function App() {

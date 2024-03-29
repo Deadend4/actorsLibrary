@@ -1,9 +1,7 @@
-import QuoteCard from "../../components/QuoteCard";
-import deadend4 from "../../assets/deadend4.jpg";
-import ButtonA from "../../components/ButtonA";
 import styles from "./Twisters.module.scss";
-import setRouterTitle from "../../../utils/useRouterTitle";
+import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
+import TwisterDiv from "../../components/TwisterDiv";
 
 export default function Twisters(): JSX.Element {
   setRouterTitle("Скороговорки");
@@ -11,10 +9,15 @@ export default function Twisters(): JSX.Element {
     <div className={styles.container}>
       <Header />
       <h1>Скороговорки</h1>
-      <QuoteCard
-        image={deadend4}
-        name="deadend4"
-        message="Скоро будут тут скороговорки."
+      <TwisterDiv description={"Интервьюер интервента интервьюировал."} />
+      <TwisterDiv
+        description={`Скороговорун скороговорил скоровыговаривал,
+        Что всех скороговорок не перескороговоришь не перескоровыговариваешь,
+        Но, заскороговорившись, выскороговорил,
+        Что все скороговорки перескороговоришь, да не перескоровыговариваешь.`}
+      />
+      <TwisterDiv
+        description={"И прыгают скороговорки, как караси на сковородке."}
       />
     </div>
   );

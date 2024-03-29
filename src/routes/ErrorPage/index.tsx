@@ -1,6 +1,6 @@
 import styles from "./ErrorPage.module.scss";
 import errorPic from "../../assets/error.png";
-import setRouterTitle from "../../../utils/useRouterTitle";
+import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
 import QuoteCard from "../../components/QuoteCard";
 

@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     element: <ActingBooks />,
   },
   {
-    path: "/books/speech-dev",
+    path: "/books/voice-prod/",
     element: <SpeechDevelopmentBooks />,
   },
   {

@@ -1,17 +1,19 @@
 import styles from "./Books.module.scss";
-import setRouterTitle from "../../../utils/useRouterTitle";
+import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
-import Category from "../../components/Category";
+import books from "../../../database/books.json";
+import { categoryParser } from "../../utils/useDataParser";
 
 export default function BooksPage(): JSX.Element {
   setRouterTitle("Книги");
+
+  const categories = categoryParser(books);
+
   return (
     <div className={styles.container}>
       <Header />
       <h1>Категории книг</h1>
-      <Category title="Актерское мастерство" url="/books/acting/" />
-      <Category title="Развитие речи" url="/books/speech-dev/" />
-      <Category title="Звукорежиссура" url="/books/sound-production/" />
+      {categories}
     </div>
   );
 }
