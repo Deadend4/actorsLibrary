@@ -1,1 +1,7 @@
 @import "../Root/App.module.scss";
+
+.buttons {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}

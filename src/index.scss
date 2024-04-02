@@ -42,6 +42,7 @@ h1 {
   line-height: 1.1;
 }
 
+input[type="number"],
 button {
   border-radius: 8px;
   border: var(--transparent-border);
@@ -53,9 +54,16 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+input[type="number"] {
+  max-width: 3rem;
+}
+input[type="number"]:hover,
 button:hover {
   border-color: var(--hover-border-color);
 }
+
+input[type="number"]:focus,
+input[type="number"]:focus-visible,
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
