@@ -1,0 +1,10 @@
+.videoBlock {
+  padding: 1rem;
+  background-color: var(--secondary-background-color);
+  border-radius: 8px;
+  max-width: 560px;
+  p {
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+  }
+}

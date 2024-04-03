@@ -4,17 +4,38 @@
     {
       "category": "Разминка перед записью",
       "url": "/videos/training/",
-      "content": [{}]
+      "content": [
+        {
+          "title": "Зажимы в горле. Как быстро получить красивый голос",
+          "url": "https://www.youtube.com/embed/HYpk7K4ry40"
+        },
+        {
+          "title": "АРТИКУЛЯЦИЯ. Лучшее упражнение для ДИКЦИИ. Упражнения для голоса",
+          "url": "https://www.youtube.com/embed/89WXOMmtr24"
+        },
+        {
+          "title": "Упражнения для разогрева голоса",
+          "url": "https://www.youtube.com/embed/q-6BPrw-8bM"
+        },
+        {
+          "title": "Включи свой голос за 5 минут",
+          "url": "https://www.youtube.com/embed/TGNMLHLLvnw"
+        }
+      ]
     },
     {
       "category": "Развитие природного голоса",
       "url": "/videos/natural-voice/",
-      "content": [{}]
-    },
-    {
-      "category": "Артикуляция",
-      "url": "/videos/articulation/",
-      "content": [{}]
+      "content": [
+        {
+          "title": "Красивый голос за 5 минут в день",
+          "url": "https://www.youtube.com/embed/vzWgLkG-aXs"
+        },
+        {
+          "title": "4 топовых упражнения, чтобы сделать голос ниже",
+          "url": "https://www.youtube.com/embed/3Fy5kXvruXI"
+        }
+      ]
     }
   ]
 }

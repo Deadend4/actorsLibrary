@@ -1,6 +1,7 @@
 import Category from "../components/Category";
 import QuoteCard from "../components/QuoteCard";
 import TwisterDiv from "../components/TwisterDiv";
+import Video from "../components/Video";
 
 export function twisterParser(database: JSON) {
   const renderData = database.content.map((item) => {
@@ -49,19 +50,31 @@ export function dataParser(database: JSON, category: string) {
   const filteredByCategory = database.content.filter(
     (item) => item.category === category,
   )[0];
+  let renderData;
+  switch (database.title) {
+    case "Категории книг":
+      renderData = filteredByCategory.content.map((item) => {
+        return (
+          <QuoteCard
+            key={item.id}
+            author={item.author}
+            image={item.image}
+            description={item.description}
+            title={item.title}
+            url={item.download}
+            newTab={true}
+          />
+        );
+      });
+      break;
+    case "Видеоматериалы":
+      renderData = filteredByCategory.content.map((item) => {
+        return <Video url={item.url} title={item.title} />;
+      });
+      break;
+    default:
+      break;
+  }
 
-  const renderData = filteredByCategory.content.map((item) => {
-    return (
-      <QuoteCard
-        key={item.id}
-        author={item.author}
-        image={item.image}
-        description={item.description}
-        title={item.title}
-        url={item.download}
-        newTab={true}
-      />
-    );
-  });
   return renderData;
 }
