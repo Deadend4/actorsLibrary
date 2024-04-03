@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./routes/Root/App.tsx";
-import ErrorPage from "./routes/ErrorPage/index.tsx";
+import ErrorPage from "./routes/ErrorPage";
 import "./index.scss";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import BooksPage from "./routes/Books/index.tsx";
-import Twisters from "./routes/Twisters/index.tsx";
-import ActiveBooks from "./routes/ActiveBooksPage/index.tsx";
-import { loader as categoryLoader } from "./routes/ActiveBooksPage";
-import { loader as databaseLoader } from "./routes/Books";
+import CategoriesPage from "./routes/CategoriesPage";
+import TwistersPage from "./routes/TwistersPage";
+import BooksPage from "./routes/BooksPage";
+import { loader as categoryLoader } from "./routes/BooksPage/index.tsx";
+import { loader as databaseLoader } from "./routes/CategoriesPage/index.tsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,17 +17,19 @@ const router = createBrowserRouter([
   },
   {
     path: "/:databaseId/",
-    element: <BooksPage />,
+    element: <CategoriesPage />,
     loader: databaseLoader,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/:databaseId/:categoryId/",
-    element: <ActiveBooks />,
+    element: <BooksPage />,
     loader: categoryLoader,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/twisters/",
-    element: <Twisters />,
+    element: <TwistersPage />,
   },
 ]);
 

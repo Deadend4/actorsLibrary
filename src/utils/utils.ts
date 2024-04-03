@@ -11,6 +11,10 @@ export function getCategory(id: string): string {
       return "Звукорежиссура";
     case "translation":
       return "Перевод";
+    case "training":
+      return "Разминка перед записью";
+    case "natural-voice":
+      return "Развитие природного голоса";
     case "articulation":
       return "Артикуляция";
     default:
@@ -24,6 +28,6 @@ export function getCategories(id: string): string {
     case "videos":
       return videos;
     default:
-      return videos;
+      return "";
   }
 }
