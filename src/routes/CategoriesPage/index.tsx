@@ -1,4 +1,4 @@
-import styles from "./Books.module.scss";
+import styles from "./CategoriesPage.module.scss";
 import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
 import { useLoaderData } from "react-router-dom";
@@ -16,7 +16,7 @@ export const loader = async ({ params }: LoaderProps) => {
   return { database };
 };
 
-export default function BooksPage(): JSX.Element {
+export default function CategoriesPage(): JSX.Element {
   const { database } = useLoaderData();
   const title = titleParser(database);
   setRouterTitle(title);

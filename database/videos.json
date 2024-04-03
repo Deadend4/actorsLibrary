@@ -4,47 +4,17 @@
     {
       "category": "Разминка перед записью",
       "url": "/videos/training/",
-      "content": [
-        {
-          "title": "Работа актера над собой",
-          "author": "Константин Станиславский",
-          "description": "В книге представлены практические советы и подсказки, а также описаны интересные моменты из творческой жизни Станиславского и его личный опыт постановки спектаклей.",
-          "image": "/src/assets/actorsWork.jpg",
-          "url": "/books/acting/actors-work-on-himself",
-          "download": "https://disk.yandex.ru/i/I4zV2wT7EFHQtA",
-          "id": "actors-work-on-himself"
-        }
-      ]
+      "content": [{}]
     },
     {
       "category": "Развитие природного голоса",
       "url": "/videos/natural-voice/",
-      "content": [
-        {
-          "title": "Говори красиво и уверенно",
-          "author": "Евгения Шестакова",
-          "description": "Задача этой книги - повышение КПД каждого человека через развитие голоса. Это инструмент успешности - мощный и уникальный. Книга поможет вам понять себя, свои желания, свой голос, настроить его и полюбить.",
-          "image": "/src/assets/speakBeautifully.jpg",
-          "url": "/books/acting/speak-beautifully",
-          "download": "https://disk.yandex.ru/d/oSz29Z5NMJMdOg",
-          "id": "speak-beautifully"
-        }
-      ]
+      "content": [{}]
     },
     {
       "category": "Артикуляция",
       "url": "/videos/articulation/",
-      "content": [
-        {
-          "title": "Сведение разумом",
-          "author": "Майк Ставроу",
-          "description": "В книге представлены идеи, касающиеся мироустройства, а не узкой сферы деятельности. Автор уделяет внимание нетривиальным методикам установки и проверки мониторов ближнего поля, настройке параметров компрессора, разнице между выходными уровнями аналогового и цифрового сигналов, подбору и классификации парка микрофонов, инвертированию фазы и сведению в режиме моносовместимости.",
-          "image": "/src/assets/mixing-with-your-mind.jpg",
-          "url": "/books/acting/mixing-with-your-mind",
-          "download": "https://disk.yandex.ru/i/zlfz7NYFc7W2vw",
-          "id": "mixing-with-your-mind"
-        }
-      ]
+      "content": [{}]
     }
   ]
 }

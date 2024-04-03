@@ -1,11 +1,11 @@
-import styles from "./Twisters.module.scss";
+import styles from "./TwistersPage.module.scss";
 import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
 import twisterDB from "../../../database/twisters.json";
 import { randomTwisterParser } from "../../utils/dataParser";
 import { useState } from "react";
 
-export default function Twisters(): JSX.Element {
+export default function TwistersPage(): JSX.Element {
   const [twisters, setTwisters] = useState(randomTwisterParser(twisterDB, 5));
 
   setRouterTitle("Скороговорки");
