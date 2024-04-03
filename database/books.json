@@ -1,5 +1,6 @@
 {
-  "books": [
+  "title": "Категории книг",
+  "content": [
     {
       "category": "Актерское мастерство",
       "url": "/books/acting/",

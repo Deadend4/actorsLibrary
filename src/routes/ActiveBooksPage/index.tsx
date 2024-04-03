@@ -3,19 +3,8 @@ import setRouterTitle from "../../utils/useRouterTitle";
 import Header from "../../components/Header";
 import { dataParser } from "../../utils/dataParser";
 import books from "../../../database/books.json";
-import { getCategory } from "../Books";
-import {
-  useLoaderData,
-  LoaderFunction,
-  LoaderFunctionArgs,
-} from "react-router-dom";
-
-interface TLoaderData {
-  category: string;
-}
-
-export type LoaderData<TLoaderData extends LoaderFunction> =
-  Awaited<ReturnType<TLoaderData>> extends Response | infer D ? D : never;
+import { getCategory } from "../../utils/utils";
+import { useLoaderData } from "react-router-dom";
 
 interface LoaderProps {
   params: {

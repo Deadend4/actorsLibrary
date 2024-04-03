@@ -8,7 +8,7 @@ import BooksPage from "./routes/Books/index.tsx";
 import Twisters from "./routes/Twisters/index.tsx";
 import ActiveBooks from "./routes/ActiveBooksPage/index.tsx";
 import { loader as categoryLoader } from "./routes/ActiveBooksPage";
-
+import { loader as databaseLoader } from "./routes/Books";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,11 +16,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/books/",
+    path: "/:databaseId/",
     element: <BooksPage />,
+    loader: databaseLoader,
   },
   {
-    path: "/books/:categoryId/",
+    path: "/:databaseId/:categoryId/",
     element: <ActiveBooks />,
     loader: categoryLoader,
   },

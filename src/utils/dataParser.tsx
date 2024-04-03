@@ -34,13 +34,19 @@ function createXNumbers(X: number, MaxRange: number) {
 }
 
 export function categoryParser(database: JSON) {
-  const renderData = database.books.map((item) => {
+  const renderData = database.content.map((item) => {
     return <Category title={item.category} url={item.url} />;
   });
   return renderData;
 }
+
+export function titleParser(database: JSON) {
+  const renderData = database.title;
+  return renderData;
+}
+
 export function dataParser(database: JSON, category: string) {
-  const filteredByCategory = database.books.filter(
+  const filteredByCategory = database.content.filter(
     (item) => item.category === category,
   )[0];
 

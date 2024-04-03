@@ -8,8 +8,8 @@ export default function Header(): JSX.Element {
     <header className={styles.header}>
       <ButtonA href="/" content={<Avatar image={mainPic} />} />
       <ButtonA href="/books/" content="Книги" />
-      <ButtonA href="/twisters/" content="Скороговорки" />
       <ButtonA href="/videos/" content="Видео" />
+      <ButtonA href="/twisters/" content="Скороговорки" />
     </header>
   );
 }
