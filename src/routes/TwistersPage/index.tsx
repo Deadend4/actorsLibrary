@@ -11,8 +11,7 @@ export default function TwistersPage(): JSX.Element {
   setRouterTitle("Скороговорки");
 
   return (
-    <div className={styles.container}>
-      <Header />
+    <>
       <h1>Скороговорки</h1>
       <button
         onClick={() => {
@@ -23,6 +22,6 @@ export default function TwistersPage(): JSX.Element {
       </button>
 
       {twisters}
-    </div>
+    </>
   );
 }

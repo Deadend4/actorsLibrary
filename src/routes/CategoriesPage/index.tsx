@@ -1,6 +1,4 @@
-import styles from "./CategoriesPage.module.scss";
 import setRouterTitle from "../../utils/useRouterTitle";
-import Header from "../../components/Header";
 import { useLoaderData } from "react-router-dom";
 import { getCategories } from "../../utils/utils";
 import { categoryParser, titleParser } from "../../utils/dataParser";
@@ -24,10 +22,9 @@ export default function CategoriesPage(): JSX.Element {
   const categories = categoryParser(database);
 
   return (
-    <div className={styles.container}>
-      <Header />
+    <>
       <h1>{title}</h1>
       {categories}
-    </div>
+    </>
   );
 }
