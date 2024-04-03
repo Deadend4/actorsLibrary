@@ -1,0 +1,51 @@
+$linesCount: 3;
+
+.card {
+  display: flex;
+  flex-flow: row nowrap;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  max-height: 300px;
+  min-height: 100px;
+  background-color: var(--secondary-background-color);
+  padding: 2rem;
+  gap: 25px;
+  border: var(--transparent-border);
+  transition: border-color 0.25s;
+  p {
+    margin: 0;
+    color: var(--text-color);
+  }
+}
+.card:hover {
+  border-color: var(--hover-border-color);
+}
+
+.quoteMessage {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.author {
+  font-style: italic;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $linesCount;
+  -webkit-box-orient: vertical;
+}

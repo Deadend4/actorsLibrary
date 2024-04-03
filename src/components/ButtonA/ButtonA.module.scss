@@ -1,0 +1,23 @@
+.button {
+  height: 100%;
+  max-height: 25px;
+  border-radius: 8px;
+  border: var(--transparent-border);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--text-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.button:hover {
+  color: var(--text-color);
+  border-color: var(--hover-border-color);
+}
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+acting-react-7e1ff197a4cf.json
 
 # Editor directories and files
 .vscode/*

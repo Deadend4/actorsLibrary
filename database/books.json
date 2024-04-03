@@ -1,0 +1,146 @@
+{
+  "title": "Категории книг",
+  "content": [
+    {
+      "category": "Актерское мастерство",
+      "url": "/books/acting/",
+      "content": [
+        {
+          "title": "Работа актера над собой",
+          "author": "Константин Станиславский",
+          "description": "В книге представлены практические советы и подсказки, а также описаны интересные моменты из творческой жизни Станиславского и его личный опыт постановки спектаклей.",
+          "image": "/src/assets/actorsWork.jpg",
+          "url": "/books/acting/actors-work-on-himself",
+          "download": "https://disk.yandex.ru/i/I4zV2wT7EFHQtA",
+          "id": "actors-work-on-himself"
+        },
+        {
+          "title": "Библия актерского мастерства",
+          "author": "Вера Полищук, Вера Сарабьян",
+          "description": "Перед вами уникальное пособие для начинающего актера или маститого профессионала, для руководителя театральной студии, абитуриентов и студентов театральных вузов, для практикующих психологов, а также для тех, кто хочет добиться мастерства в общении любого рода: публичных выступлениях, спорах, дискуссиях, лекциях и в каждодневных беседах между людьми. Книга, которая поможет на практике освоить опыт профессиональной подготовки под руководством великих режиссеров современности. Уникальные упражнения и авторские тренинги Константина Станиславского, Георгия Товстоногова, Всеволода Мейерхольда и Михаила Чехова - впервые под одной обложкой!",
+          "image": "/src/assets/actorsBible.jpg",
+          "url": "/books/acting/the-bible-of-acting-polishchuk",
+          "download": "https://disk.yandex.ru/i/vZYZ7_Q4W1zxfg",
+          "id": "the-bible-of-acting-polishchuk"
+        },
+        {
+          "title": "Тренинг Forever",
+          "author": "Юрий Альшиц",
+          "description": "Книга состоит из десяти частей, рассматривающих отдельные элементы тренинга актера: освобождение от рефлексов повседневной жизни, поиск и организация энергии игры, сценические законы, настройка художественного я, подготовка к игре с партнером, принципы коллективного договора и ансамблевой игры и т.д.",
+          "image": "/src/assets/treningForever.jpg",
+          "url": "/books/acting/trening-forever",
+          "download": "https://disk.yandex.ru/i/XH11Fjx1RrYrfg",
+          "id": "trening-forever"
+        },
+        {
+          "title": "Кино между адом и раем",
+          "author": "Александр Митта",
+          "description": "Эта книга и для человека, который хочет написать сценарий, поставить фильм и сыграть в нем главную роль, и для того, кто не собирается всем этим заниматься.",
+          "image": "/src/assets/mittaKino.jpg",
+          "url": "/books/acting/mitta-kino",
+          "download": "https://disk.yandex.ru/i/P4fWYgLUI1l8iQ",
+          "id": "mitta-kino"
+        }
+      ]
+    },
+    {
+      "category": "Постановка голоса",
+      "url": "/books/voice-prod/",
+      "content": [
+        {
+          "title": "Говори красиво и уверенно",
+          "author": "Евгения Шестакова",
+          "description": "Задача этой книги - повышение КПД каждого человека через развитие голоса. Это инструмент успешности - мощный и уникальный. Книга поможет вам понять себя, свои желания, свой голос, настроить его и полюбить.",
+          "image": "/src/assets/speakBeautifully.jpg",
+          "url": "/books/acting/speak-beautifully",
+          "download": "https://disk.yandex.ru/d/oSz29Z5NMJMdOg",
+          "id": "speak-beautifully"
+        },
+        {
+          "title": "Голос. 99 упражнений для тренировки, развития и совершенствования вокальных навыков",
+          "author": "Джереми Фишер, Гиллиан Кейс",
+          "description": "В книгу входит все - тренировка дыхания и ритма, распевки, специальные техники совершенствования устной речи и пения в разных стилях: джаз, поп-музыка, опера и даже битбокс. Поете ли вы в хоре или солируете на сцене, готовитесь к серьезной презентации или речи на важном торжестве - вам важно быть услышанным, и теперь у вас есть возможность узнать, как этого добиться.",
+          "image": "/src/assets/fisherVoice.jpg",
+          "url": "/books/acting/voice-99-fisher",
+          "download": "https://disk.yandex.ru/i/VEvbRX9CrRib8A",
+          "id": "voice-99-fisher"
+        },
+        {
+          "title": "Техника постановки голоса",
+          "author": "Александр Вербов",
+          "description": "В данном пособии излагается система постановки голоса для вокалиста. Каждая глава снабжена научными сведениями, рисунками, описаниями практических приемов для достижения наилучшего результата, выводами в конце.",
+          "image": "/src/assets/verbovVoiceTech.jpg",
+          "url": "/books/acting/verbov-voice-tech",
+          "download": "https://disk.yandex.ru/i/5epOnI6XM8ZOYg",
+          "id": "verbov-voice-tech"
+        },
+        {
+          "title": "Сценическая речь. Ритмы и вариации",
+          "author": "Юрий Васильев",
+          "description": "В центре внимания находятся актуальные для современной театральной педагогики методы формирования синтеза актерской выразительности посредством генетической связи движения и речи. Книга содержит оригинальную систему индивидуальных, парных и ансамблевых вариаций, исходящих из законов ритмической организации стихотворной и прозаической речи на сцене и развивающих навыки интонационно-логической, темпоритмической, эмоционально-чувственной, семантической структуры высказывания.",
+          "image": "/src/assets/vasilievScenVoice.jpg",
+          "url": "/books/acting/vasiliev-scen-voice",
+          "download": "https://disk.yandex.ru/i/ApdVu5DozslYag",
+          "id": "vasiliev-scen-voice"
+        }
+      ]
+    },
+    {
+      "category": "Звукорежиссура",
+      "url": "/books/sound-prod/",
+      "content": [
+        {
+          "title": "Сведение разумом",
+          "author": "Майк Ставроу",
+          "description": "В книге представлены идеи, касающиеся мироустройства, а не узкой сферы деятельности. Автор уделяет внимание нетривиальным методикам установки и проверки мониторов ближнего поля, настройке параметров компрессора, разнице между выходными уровнями аналогового и цифрового сигналов, подбору и классификации парка микрофонов, инвертированию фазы и сведению в режиме моносовместимости.",
+          "image": "/src/assets/mixing-with-your-mind.jpg",
+          "url": "/books/acting/mixing-with-your-mind",
+          "download": "https://disk.yandex.ru/i/zlfz7NYFc7W2vw",
+          "id": "mixing-with-your-mind"
+        },
+        {
+          "title": "Настольная книга звукорежиссера",
+          "author": "Боб Овсински",
+          "description": "Ведущие специалисты звукозаписи дают интервью и делятся своими личными секретами. Прочитав эту книгу можно научится грамотно, с пониманием записывать и сводить музыкальный материал.",
+          "image": "/src/assets/mixingEgineersHandbook.jpg",
+          "url": "/books/acting/mixingEgineersHandbook",
+          "download": "https://disk.yandex.ru/i/NQRMUiyvwJQISQ",
+          "id": "mixing-egineers-handbook"
+        }
+      ]
+    },
+    {
+      "category": "Перевод",
+      "url": "/books/translation/",
+      "content": [
+        {
+          "title": "Технология перевода",
+          "author": "Лев Латышев",
+          "description": "В нём автор пытается преодолеть разрыв между традиционно преподаваемой теорией перевода и обучением его практическим навыкам. Каждый теоретический раздел пособия сопровождается серией заданий, соответствующих конкретным теоретическим положениям.",
+          "image": "/src/assets/latishevTranslationTech.jpg",
+          "url": "/books/acting/latishev-translation-tech",
+          "download": "https://disk.yandex.ru/i/Lbzl5plDv1kZEw",
+          "id": "latishev-translation-tech"
+        },
+        {
+          "title": "The Russian-English Translator's Handbook",
+          "author": "Teresa Pearce",
+          "description": "A practical guide to the most common pitfalls when translating from Russian into English",
+          "image": "/src/assets/deadend4.jpg",
+          "url": "/books/acting/ru-en-translators-handbook",
+          "download": "https://disk.yandex.ru/i/jhBBJ_1bCEqvLA",
+          "id": "ru-en-translators-handbook"
+        },
+        {
+          "title": "Практический справочник переводчика и редактора",
+          "author": "Георгий Моисеенко",
+          "description": "Настоящий документ предназначен для переводчиков, редакторов и других лиц, контролирующих качество выполнения перевода. Приведенные примеры относятся к переводу с английского языка на русский и наоборот и в большинстве случаев взяты из реальных переводов.",
+          "image": "/src/assets/deadend4.jpg",
+          "url": "/books/acting/moiseinko-handbook",
+          "download": "https://disk.yandex.ru/i/JekOeNi2YHvw7A",
+          "id": "moiseinko-handbook"
+        }
+      ]
+    }
+  ]
+}
