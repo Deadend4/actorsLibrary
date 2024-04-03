@@ -12,7 +12,6 @@ interface LoaderProps {
 }
 
 export const loader = async ({ params }: LoaderProps) => {
-  console.log(params);
   const database = await getCategories(params.databaseId);
   return { database };
 };

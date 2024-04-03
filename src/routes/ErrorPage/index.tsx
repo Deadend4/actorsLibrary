@@ -6,20 +6,6 @@ import QuoteCard from "../../components/QuoteCard";
 
 export default function ErrorPage(): JSX.Element {
   setRouterTitle("404 Страница не найдена");
-  // const fetchPost = async () => {
-  //   await getDocs(collection(firestoreDB, "images"))
-  //     .then((querySnapshot) => {
-  //       newData = querySnapshot.docs.map((doc) => ({
-  //         ...doc.data(),
-  //         id: doc.id,
-  //       }));
-  //       console.log(newData);
-  //     })
-  //     .catch(() => alert("aaaa"));
-  // };
-  // useEffect(() => {
-  //   fetchPost();
-  // }, []);
   return (
     <div className={styles.container}>
       <Header />
