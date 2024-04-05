@@ -2,6 +2,7 @@ import Category from "../components/Category";
 import QuoteCard from "../components/QuoteCard";
 import TwisterDiv from "../components/TwisterDiv";
 import Video from "../components/Video";
+import styles from "../routes/BooksPage/BooksPage.module.scss";
 
 export function twisterParser(database: JSON) {
   const renderData = database.content.map((item) => {
@@ -51,6 +52,7 @@ export function dataParser(database: JSON, category: string) {
     (item) => item.category === category,
   )[0];
   let renderData;
+  let renderVideo;
   switch (database.title) {
     case "Категории книг":
       renderData = filteredByCategory.content.map((item) => {
@@ -68,9 +70,10 @@ export function dataParser(database: JSON, category: string) {
       });
       break;
     case "Видеоматериалы":
-      renderData = filteredByCategory.content.map((item) => {
+      renderVideo = filteredByCategory.content.map((item) => {
         return <Video url={item.url} title={item.title} />;
       });
+      renderData = <div className={styles.videosBlock}>{renderVideo}</div>;
       break;
     default:
       break;

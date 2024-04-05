@@ -9,8 +9,6 @@ export default function Video({ url, title }: VideoProps) {
     <div className={styles.videoBlock}>
       <p>{title}</p>
       <iframe
-        width="560"
-        height="315"
         src={url}
         title="YouTube video player"
         frameborder="0"

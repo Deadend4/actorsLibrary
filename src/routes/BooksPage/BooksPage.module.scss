@@ -1,0 +1,14 @@
+.videosBlock {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(auto-fill, 500px);
+  grid-auto-flow: row;
+  grid-gap: 20px;
+  height: fit-content;
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+}

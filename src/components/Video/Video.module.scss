@@ -2,9 +2,13 @@
   padding: 1rem;
   background-color: var(--secondary-background-color);
   border-radius: 8px;
-  max-width: 560px;
+  max-width: 500px;
+  height: fit-content;
   p {
     text-transform: uppercase;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     margin: 0 0 1rem;
   }
 }
