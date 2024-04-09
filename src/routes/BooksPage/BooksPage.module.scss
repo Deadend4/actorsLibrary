@@ -1,14 +1,19 @@
 .videosBlock {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: repeat(auto-fill, 500px);
-  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-items: center;
+  width: 100%;
+  max-width: 1020px;
   grid-gap: 20px;
-  height: fit-content;
 }
 
-iframe {
-  width: 100%;
-  max-width: 560px;
-  height: 315px;
+@media screen and (max-width: 860px) {
+  .videosBlock {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    width: 100%;
+    max-width: fit-content;
+    grid-gap: 20px;
+  }
 }

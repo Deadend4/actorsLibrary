@@ -6,9 +6,11 @@ import { Outlet } from "react-router-dom";
 export default function Root() {
   setRouterTitle("Библиотека Озвучкера");
   return (
-    <div className={styles.container}>
+    <>
       <Header />
-      <Outlet />
-    </div>
+      <div className={styles.container}>
+        <Outlet />
+      </div>
+    </>
   );
 }

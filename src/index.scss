@@ -40,6 +40,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: center;
 }
 
 input[type="number"],
@@ -71,12 +72,11 @@ button:focus-visible {
 
 .container {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   align-items: center;
   gap: 20px;
-  height: 100%;
   min-height: 100vh;
-  padding-bottom: 2rem;
+  padding: 0 1rem 2rem;
 }
 
 @media (prefers-color-scheme: light) {
@@ -89,5 +89,13 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
   }
 }

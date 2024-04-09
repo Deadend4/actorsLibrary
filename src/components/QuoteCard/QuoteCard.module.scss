@@ -6,9 +6,7 @@ $linesCount: 3;
   border-radius: 8px;
   width: 100%;
   max-width: 600px;
-  min-width: 300px;
   max-height: 300px;
-  min-height: 100px;
   background-color: var(--secondary-background-color);
   padding: 2rem;
   gap: 25px;
@@ -48,4 +46,23 @@ $linesCount: 3;
   display: -webkit-box;
   -webkit-line-clamp: $linesCount;
   -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 860px) {
+  .card {
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    max-height: 300px;
+    background-color: var(--secondary-background-color);
+    padding: 1rem;
+    gap: 25px;
+    border: var(--transparent-border);
+    transition: border-color 0.25s;
+  }
+  .title {
+    font-size: 1rem;
+  }
 }
