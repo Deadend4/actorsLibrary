@@ -2,9 +2,22 @@
   padding: 1rem;
   background-color: var(--secondary-background-color);
   border-radius: 8px;
-  max-width: 560px;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 16/9;
+  z-index: -1;
+  box-sizing: border-box;
   p {
     text-transform: uppercase;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     margin: 0 0 1rem;
   }
+}
+
+iframe {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
 }

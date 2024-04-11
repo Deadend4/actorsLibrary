@@ -1,7 +1,9 @@
 @import "../QuoteCard/QuoteCard.module.scss";
 .card {
   justify-content: center;
-  max-height: 50px;
-  min-height: 30px;
+  height: 100%;
   padding: 1rem;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
 }

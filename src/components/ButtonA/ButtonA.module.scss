@@ -3,8 +3,8 @@
   max-height: 25px;
   border-radius: 8px;
   border: var(--transparent-border);
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
   color: var(--text-color);
@@ -20,4 +20,10 @@
 .button:focus,
 .button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+@media screen and (max-width: 860px) {
+  .button {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+  }
 }
