@@ -3,8 +3,10 @@
   background-color: var(--secondary-background-color);
   border-radius: 8px;
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   aspect-ratio: 16/9;
+  z-index: -1;
+  box-sizing: border-box;
   p {
     text-transform: uppercase;
     overflow-x: hidden;
@@ -18,15 +20,4 @@ iframe {
   position: relative;
   width: 100%;
   aspect-ratio: 16/9;
-}
-
-@media screen and (max-width: 860px) {
-  .videoBlock {
-    padding: 1rem;
-    background-color: var(--secondary-background-color);
-    border-radius: 8px;
-    width: 100%;
-    max-width: 300px;
-    aspect-ratio: 16/9;
-  }
 }
