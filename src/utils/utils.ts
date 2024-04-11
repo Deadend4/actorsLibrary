@@ -13,8 +13,8 @@ export function getCategory(id: string): string {
       return "Перевод";
     case "training":
       return "Разминка перед записью";
-    case "natural-voice":
-      return "Развитие природного голоса";
+    case "voice-production":
+      return "Постановка голоса";
     case "articulation":
       return "Артикуляция";
     default:
